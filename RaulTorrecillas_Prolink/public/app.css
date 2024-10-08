@@ -1,0 +1,1085 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #6259FF;
+    color: #fff;
+    margin: 0;
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+#hamburguesa{
+    display: none;
+}
+
+header a {
+    display: inline-block;
+    margin: 0;
+    max-height: 20rem;
+    max-width: 20%;
+}
+
+header nav {
+    display: inline-block;
+    width: 80%;
+    padding: 10px;
+}
+
+header nav ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 10px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline;
+}
+
+header nav ul li a:hover {
+    background-color: #575766;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.content{
+    width: 90%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article{
+    margin-bottom: 5%;
+    width: 100%;
+}
+
+.hero {
+    max-height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hero-content {
+    color: #000;
+}
+
+form {
+    background-color: #222133;
+    padding: 3rem;
+    text-align: center;
+    color: white;
+    border-radius: 1.5rem;
+}
+
+div > form h2 {
+    margin-bottom: 1rem;
+}
+
+div > form input, div > form textarea {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+div > form input[type="text"],
+div > form select {
+    width: 100%;
+    padding: 1rem;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+div > form button {
+    display: block;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: 1rem;
+    background-color: #6259FF;
+    color: #fff;
+    border: none;
+    padding: 1rem 1.5rem;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+div > form button a{
+    text-decoration: none;
+    color: white;
+}
+
+div > form button:hover{
+    background-color: #575766;
+}
+
+.content-register{
+    background-color: #222133;
+    display: grid;
+    grid-template-rows: 0.2fr 0.1fr 1fr;
+    border-radius: 1.5rem;
+    color: white;
+}
+
+.content-register h2{
+    text-align: center;
+}
+
+.content-register hr{
+    width: 100%;
+    background-color: white;
+    border: none;
+    height: 0.1rem;
+}
+
+.content-1{
+    width: 100%;
+    background-color: #6259FF;
+    border-radius: 1.5rem;
+}
+
+.home-card{
+    max-width: 50%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+}
+
+.home-card h2{
+    color: white;
+}
+
+.home-card a{
+    text-decoration: none;
+}
+
+.card-1{
+    max-width: 50%;
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card-1 img{
+    max-width: 50%;
+    border-radius: 0.5rem;
+    margin-bottom: 1rem;
+}
+
+.card-1 a{
+    text-decoration: none;
+    background-color: #6259FF;
+    color: white;
+    padding: 1rem;
+    font-size: 1.5rem;
+    border-radius: 0.5rem;
+}
+
+.card-1 a:hover{
+    background-color: #575766;
+}
+
+.content-2{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.content-2 > img{
+    width: 45%;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-2 > form{
+    max-width: 30%;
+}
+
+.proposal-info {
+    width: 50%;
+    padding: 1.5rem;
+    background-color: #222133;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.proposal-info h1 {
+    font-size: 2rem;
+    color: white;
+}
+
+.proposal-info a {
+    display: inline-block;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.proposal-info a:hover {
+    background-color: #575766;
+}
+
+.proposal-info .category,
+.proposal-info .price,
+.proposal-info .description {
+    font-size:  1.1rem;
+    margin-bottom: 0.5rem;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.proposal-info .category {
+    font-weight: bold;
+    color: white;
+    background-color: #6259FF;
+}
+
+.proposal-info .price {
+    font-weight: bold;
+    color: #6259FF;
+}
+
+.proposal-info .description {
+    font-style: italic;
+    background-color: white;
+    font-size: 0.8rem;
+}
+
+.proposal-info label {
+    display: inline-block;
+    margin-bottom: 1rem;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.proposal-info input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.proposal-info button[type="submit"] {
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: #6259FF;
+    color: white;
+    border: none;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+.proposal-info button[type="submit"]:hover {
+    background-color: #575766;
+}
+
+.card-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 42%;
+    padding: 1.5rem;
+    background-color: #222133;
+    border-radius: 1.5rem;
+    color: white;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.text-card-2{
+    max-width: 100%;
+}
+
+.card-2 a{
+    padding: 1rem;
+    background-color: #6259FF;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.card-2 a:hover{
+    background-color: #575766;
+}
+
+.list-4{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 2.5%;
+    width: 100%;
+}
+
+.card-4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #222133;
+    color: white;
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+}
+
+.card-4 a img{
+    max-width: 100%;
+    border-radius: 1.5rem;
+}
+
+.card-4 > a{
+    text-decoration: none;
+    color: white;
+}
+
+.list-1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work-experience{
+    background-color: #6259FF;
+    text-align: center;
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.addExperience{
+    text-align: center;
+    background-color: #6259FF;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #6259FF;
+}
+
+.user-professional-table {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 1.5rem;
+}
+
+.user-professional-table th,
+.user-professional-table td {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    text-align: center;
+    color: black;
+}
+
+.user-professional-table th {
+}
+
+.user-professional-table input[type="text"],
+.user-professional-table input[type="date"],
+.user-professional-table textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+    resize: vertical;
+}
+
+.user-professional-table .date-modify {
+    width: 50%;
+    margin-right: 0.5rem;
+}
+
+.user-professional-table textarea {
+    height: 5rem;
+}
+
+.cart-section {
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: 1fr 0.2fr;
+    gap: 1rem;
+}
+
+.cart {
+    background-color: #222133;
+    padding: 1rem;
+    border-radius: 1rem;
+    color: white;
+}
+
+.cart table {
+    width: 100%;
+}
+
+.cart th, .cart td {
+    padding: 8px;
+    text-align: center;
+    border: none;
+}
+
+.cart td{
+    border-bottom: 1px solid white;
+}
+
+.cart img {
+    width: 10rem;
+    height: auto;
+    border-radius: 1rem;
+}
+
+.cart .button {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.cart .button button {
+    background-color: #6259FF;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 1rem;
+}
+
+.cart .button button:hover {
+    background-color: #6259FF;
+}
+
+
+p {
+    font-size: 1.2em;
+}
+
+form.summary {
+    max-width: 100%;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #6259FF;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+/* Estilo del título */
+form.summary h2 {
+    margin-top: 0;
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+
+/* Estilo de las filas de detalle */
+form.summary div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    font-size: 1rem;
+}
+
+/* Estilo del separador */
+form.summary hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 0.5rem 0;
+}
+
+/* Estilo del campo de entrada del total */
+form.summary input[type="number"] {
+    border: none;
+    background-color: transparent;
+    text-align: right;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+/* Estilo del botón de pago */
+form.summary button {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 20px;
+    border: none;
+    border-radius: 0.5rem;
+    background-color: #222133;
+    color: white;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+form.summary button:hover {
+    background-color: #575766;
+}
+
+.hero {
+    background-color: #222133;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.hero-content {
+    max-width: 90%;
+    color: white;
+}
+
+.hero h2 {
+    width: 100%;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 18px;
+}
+
+/* Estilo de la sección inspiration */
+.inspiration {
+    padding: 1rem;
+    background-color: #222133;
+    color: white;
+    border-radius: 8px;
+    text-align: center;
+    max-width: 50%;
+}
+
+.inspiration img{
+    width: 80%;
+    margin-top: 10%;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.inspiration-content {
+    margin: 0 auto;
+}
+
+.inspiration h2 {
+    background-color: #6259FF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+.inspiration p {
+    font-size: 18px;
+}
+
+.inspiration ul {
+    text-align: left;
+    list-style-type: disc;
+    margin: 0.5rem 0;
+    padding-left: 1.5rem;
+}
+
+.inspiration ul li {
+    margin: 1rem;
+}
+
+.proposal-filter {
+    width: 100%;
+}
+
+/* Estilo de la sección de filtro de categoría */
+.category-filter {
+    margin-bottom: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.category-filter label {
+    background-color: #6259FF;
+    padding: 1rem;
+    margin-right: 1rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.category-filter select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Estilo de la sección de filtro de precio */
+.price-filter {
+    margin-bottom: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+}
+
+.price-filter label {
+    background-color: #6259FF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    margin-right: 1rem;
+    font-weight: bold;
+    width: 100%;
+}
+
+.price-filter .priceRange {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.price-filter input[type="range"] {
+    width: calc(100% - 50px); /* Restar el ancho del input del número */
+}
+
+.price-filter input[type="range"],
+.price-filter input[type="number"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.price-filter input[type="number"] {
+    width: 50px;
+}
+
+.price-filter input[type="checkbox"] {
+    margin-left: 10px;
+    width: 10%;
+}
+
+.manage-buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.manage-buttons a{
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    background-color: #6259FF;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.manage-buttons a:hover{
+    background-color: #575766;
+}
+
+.modify-button{
+    width: 95%;
+    text-align: center;
+    padding: 1rem;
+    background-color: #6259FF;
+}
+
+.modify-button a{
+    text-decoration: none;
+}
+
+
+.modify-form{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-self: center;
+}
+
+.modify-form input, .modify-form textarea {
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+.modify-form button{
+    width: 100%;
+    padding: 1rem;
+    background-color: #6259FF;
+    color: white;
+}
+
+.modify-form button:hover{
+    cursor: pointer;
+    background-color: #575766;
+}
+
+.delete{
+    text-decoration: none;
+    background-color: #6259FF;
+    padding: 1rem;
+    color: white;
+    border-radius: 0.5rem;
+}
+
+.delete:hover{
+    background-color: #575766;
+}
+
+/* Estilo del botón de envío */
+.proposal-filter button[type="submit"] {
+    width: 100%;
+    font-size: 1.5rem;
+    padding: 1rem;
+    background-color: #6259FF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.proposal-filter button[type="submit"]:hover {
+    background-color: #575766;
+}
+
+.proposal-summary{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.proposal-summary a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1rem;
+}
+
+.proposal-summary p{
+    background-color: #6259FF;
+    border-radius: 2rem;
+    padding: 1rem;
+    font-size: 0.6rem;
+}
+
+.session-form{
+    width: 100%;
+}
+
+footer {
+    background-color: #6259FF;
+    color: #fff;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.pagination{
+    text-align: center;
+}
+
+svg{
+    width: 16px;
+    height: 16px;
+}
+
+.message{
+    position: fixed;
+    bottom: 5%;
+    left: 2%;
+    background-color: #575766;
+    color: white;
+    border-radius: 1.5rem;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.errors {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+    border: 1px solid #ff0000;
+    border-radius: 5px;
+}
+
+.error {
+    color: #ff0000;
+    margin: 0.5rem 1rem;
+    font-size: 0.9em;
+}
+
+@media screen and (max-width: 768px) {
+
+    header nav{
+        display: none;
+    }
+
+    .header-expanded {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-start;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        background: #6259FF;
+        padding-top: 80px; /* Espacio para el logo */
+        z-index: 999;
+    }
+
+    .header-expanded a image{
+        width: 100%;
+        margin-left: 50%;
+    }
+
+    .header-expanded nav {
+        display: flex;
+    }
+
+    .header-expanded nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .header-expanded nav ul li {
+        margin: 15px 0;
+    }
+
+    .header-expanded nav ul li a {
+        color: white;
+        text-decoration: none;
+        font-size: 1.2em;
+    }
+
+    #bandera {
+        display: none;
+    }
+
+    /* Asignamos el formato al contenedor de la Hamburguesa, a la etiqueta label */
+    #hamburguesa {
+        z-index: 1000;
+        position: fixed;
+        top: 2%;
+        right: 5%;
+        display: block;
+        width: 4em;
+        height: 4em;
+        cursor: pointer;
+        background: #6259FF;
+        border-radius: 0.25em;
+    }
+
+    /*Creamos la línea central de la hamburguesa dentro de la etiqueta span*/
+    #hamburguesa span {
+        content: ''; /* content en la línea central no sería necesario ponerlo, esta solo para aclaración docente */
+        position: absolute;
+        top: 0;
+        right: 0;
+        bottom: 0;        /* Posicionamos el span en el punto 0,0 esquina superrior derecha  */
+        left: 0;
+        width: 3em;
+        height: .4em;
+        margin: auto;   /* Centramos el span, al poner los márgenes automáticos   */
+        background: white;
+        border-radius: 0.1em;
+    }
+
+    /*Creamos la línea superior de la hamburguesa duplicando el span*/
+    #hamburguesa span:before {
+        content: '';
+        position: absolute;
+        width: inherit;
+        height: inherit;
+        bottom: initial; /* no sería necesario ponerlo es el de por defecto */
+        top: -1em;
+        background: white;
+        border-radius: 0.1em;
+    }
+    /*Creamos la línea superior de la hamburguesa duplicando el span*/
+    #hamburguesa span:after {
+        content: '';
+        position: absolute;
+        bottom: -1em;
+        top: initial;  /* no sería necesario ponerlo es el de por defecto */
+        width: inherit;
+        height: inherit;
+        background: white;
+        border-radius: 0.1em;
+    }
+
+    /* ANIMACIÓN */
+
+    #hamburguesa span {
+        transition: background 0s 0.25s;
+    }
+
+    #hamburguesa span:before, #hamburguesa span:after {
+        transition-delay: .25s, 0s;
+        transition-duration: .5s, .5s;
+    }
+
+    #hamburguesa span:before {
+        transition-property: top, transform;
+    }
+
+    #hamburguesa span:after {
+        transition-property: bottom, transform;
+    }
+
+    #bandera:checked + span {
+        background: none;
+    }
+
+    #bandera:checked + span:before {
+        top: 0;
+        transform: rotate(45deg);
+    }
+
+    #bandera:checked + span:after {
+        bottom: 0;
+        transform: rotate(-45deg);
+    }
+
+    #bandera:checked + span:before,#bandera:checked + span:after {
+        transition-delay: 0s, .25s;
+    }
+
+    .content-2 {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .content-2 > img {
+        width: 95%;
+        margin-bottom: 1rem;
+    }
+
+    .content-2 > form {
+        max-width: 90%;
+    }
+
+    .card-1,
+    .home-card {
+        max-width: 90%;
+    }
+
+    .card-1 img {
+        max-width: 100%;
+    }
+
+    .proposal-info {
+        width: 90%;
+    }
+
+    .list-4 {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .cart-section {
+        grid-template-columns: 1fr;
+    }
+
+    .inspiration {
+        max-width: 90%;
+    }
+
+    .inspiration img {
+        width: 100%;
+    }
+
+    .manage-buttons a {
+        width: 90%;
+    }
+
+    .modify-button {
+        width: 100%;
+    }
+
+    .modify-form {
+        width: 90%;
+    }
+
+    .message {
+        width: 20%;
+    }
+
+    .session-form{
+        margin-top: 1rem;
+        max-width: 100%;
+    }
+
+    .card-2{
+        max-width: 90%;
+    }
+
+    .pagination{
+        margin-top: 10rem;
+    }
+    .manage-buttons{
+        justify-content: space-between;
+    }
+    .manage-buttons a{
+        max-width: 40%;
+    }
+}
